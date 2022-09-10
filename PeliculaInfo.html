@@ -4,8 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="js/scriptMain.js" defer></script>
-    <!-- <script src="js/eventListeners.js" defer></script> -->
+    <script src="js/funciones.js" defer></script>
     <script src="js/datosPelicula.js" defer></script>
     
     <title>Información</title>
@@ -16,7 +15,7 @@
 <body>
     <header>
         
-		<a href="#"><h1>Movies</h1></a>
+		<a href="index.html"><h1>Movies</h1></a>
 
         <form id="searchForm">
             <input
@@ -34,9 +33,17 @@
 		</div>
 
     </header>
-  <!-- The main tag where we are going to put all our movies that we got from the API -->
+
     <main id="main">
-      <div id="datos-pelicula"></div>
+      <div id="datos-pelicula">
+        
+        <div id="container"></div>
+        <hr />
+
+
+        <div id="datos"></div>
+
+      </div>
     </main>
     
 </body>
